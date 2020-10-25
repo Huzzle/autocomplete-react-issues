@@ -1,0 +1,10 @@
+.withSpinner {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.withSpinner .Spinner {
+  position: absolute;
+  right: 5px;
+}

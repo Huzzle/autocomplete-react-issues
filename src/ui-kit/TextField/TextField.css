@@ -1,0 +1,14 @@
+.TextField {
+  border: 1px solid #e1e4e8;
+  color: #586069;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 12px;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+}
+
+.TextField:focus {
+  border-color: #0366d6;
+}

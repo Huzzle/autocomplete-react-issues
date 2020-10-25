@@ -1,0 +1,39 @@
+.IssuesList {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e4e8;
+  border-top: none;
+  border-bottom: none;
+}
+
+.IssuesList__Item {
+  border-bottom: 1px solid #e1e4e8;
+  padding: 0 8px;
+  min-height: 60px;
+  text-decoration: none;
+  color: #24292e;
+}
+
+.IssuesList__Item:hover {
+  background-color: #f6f8fa;
+}
+
+.IssuesList__Item--highlighted {
+  background-color: #f6f8fa;
+}
+
+.IssuesList__ItemTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.IssuesList__ItemBadges {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.IssuesList__ItemBadges .Badge {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
